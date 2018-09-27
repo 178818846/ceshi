@@ -1,0 +1,177 @@
+@charset "utf-8";
+body{
+	background:#f5f5f5;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+/*header start*/
+.container .header{
+	margin-top:20px;
+}
+.headpic{
+	margin: -1.5rem -0.6rem 0 -0.6rem;
+}
+.lessonIntro{
+	color: #333;
+	float: right;
+	font-size: 0.8rem;
+	height: 9rem;
+	padding: 0 1rem;
+	width: 50%;
+}
+.introPic img{
+	height: 100%;
+}
+.introWord{
+	color: #002f7b;
+	font-size: 1rem;
+	font-weight: bold;
+	text-indent: -1rem;
+}
+.lessonIntro ul li{
+	font-size: 0.7rem;
+	margin: 0.8rem 0;
+	list-style-type: disc;
+}
+.introPic{
+	height: 9rem;
+	text-align: center;
+	width: 40%;
+	float: left;
+}
+.stratLine{
+	margin: 1rem -0.6rem 0 -0.6rem;
+}
+.stratLine img{
+	width: 100%;
+}
+/*end header*/
+/*content style start*/
+.content{
+	/*padding-top:20px;*/
+}
+.header_img{
+	width:60px;
+	height:60px;
+}
+.backTop{
+	display: none;
+}
+.backTop img{
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+	width: 60px;
+	height: auto;
+}
+
+.word_message{
+	background:url('../img/tx.jpg');
+	background-attachment:initial;
+	background-size:35px;
+	background-origin: initial;
+	background-clip: initial;
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+	width:100%
+}
+.content_word{
+	max-width:210.6875px;
+	height:auto;
+	margin-left:14%;
+}
+.word_message .content_message{
+	background:#002f7b;
+	color: #fff;
+}
+.content_message{
+	padding:8px;
+	border-radius:8px;
+}
+.content_message span{
+	text-align:center;
+}
+.content_audio{
+	width:200px;
+	margin-left:14%;
+}
+.content_audio .audio_message{
+	background:#f9f9f9;
+}
+.audio_box{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.audio_message{
+	padding:8px;
+	border-radius:6px;
+	box-shadow:1px 1px 3px #888888;
+}
+.audio_message span{
+	width:100%
+}
+.audio_time{
+	margin-left:10px;
+	padding-top:8px;
+	/*display:none;*/
+	display: block;
+	color:#999999;
+}
+.reddot{
+	margin-left: 6px;
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid red;
+	width: 6px;
+	height: 6px;
+	background-color: red;
+	border-radius: 6px;
+}
+.voice{
+	height:18px;
+	margin-top: 2px;
+}
+.pic_message{
+	background:url('../img/tx.jpg');
+/*	background-position:right;*/
+	background-attachment:initial;
+	background-size:38px;
+	background-origin: initial;
+	background-clip: initial;
+	background-repeat:no-repeat;
+	margin-bottom:20px;
+	width:100%
+}
+.word_right{
+	background:url('../img/student.png');
+	background-repeat:no-repeat;
+	background-size:35px;
+	background-position:right;
+}
+.content_right{
+	margin-right:45px;
+}
+.pic_message .content_message{
+	background:#fff;
+}
+/*end content style*/
+.hunbody{
+	overflow: hidden;
+	width: 100%;
+}
+.hunbody img{
+	width: 100%;
+}
+.endLine{
+	width: 100%;
+	padding-bottom: 0.5rem;
+}
+.endLine img{
+	width: 100%;
+}
+#trans{
+	position: fixed;
+	background: red;
+	bottom: 124px;
+	right: 30px;
+	width: 60px;
+}
